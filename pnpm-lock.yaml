@@ -15,8 +15,8 @@ importers:
         specifier: 4.0.8
         version: 4.0.8(typescript@5.7.3)
       astro-font:
-        specifier: ^0.0.72
-        version: 0.0.72
+        specifier: ^1.0.0
+        version: 1.0.0
     devDependencies:
       '@astrojs/mdx':
         specifier: 2.3.1
@@ -1022,8 +1022,8 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
-  '@graphql-tools/utils@10.8.2':
-    resolution: {integrity: sha512-JjWpf9Dj2LXFccAB7CON6jUcXduJlE5XcJfLmKTWBk46Ei2dhDntVAmvIa97YPdLanrgFN5SRt3hSAe3qo/FYg==}
+  '@graphql-tools/utils@10.8.3':
+    resolution: {integrity: sha512-4QCvx3SWRsbH7wnktl51mBek+zE9hsjsv796XVlJlOUdWpAghJmA3ID2P7/Vwuy7BivVNfuAKe4ucUdE1fG7vA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -3212,6 +3212,10 @@ packages:
     resolution: {integrity: sha512-0LRYNcKW2t/bWJmiKYhPIUVwz4iMNpC3aPh3UdvfUS8B+68kHpdht7pPcuawb08057rXuyuxZXavcVpoVL01AA==}
     engines: {node: '>=12'}
 
+  '@whatwg-node/promise-helpers@1.2.2':
+    resolution: {integrity: sha512-aPVTGCs/QEYkSTnYcLKE1wyYZykbGjaXsEwXHc0FKbSlojIpdw72BQMJx9aJXzkCs6qy9WfDV0jhV9C2qIYYOA==}
+    engines: {node: '>=16.0.0'}
+
   '@xobotyi/scrollbar-width@1.9.5':
     resolution: {integrity: sha512-N8tkAACJx2ww8vFMneJmaAgmjAG1tnVBZJRLRcx061tmsLRZHSEZSLuGWnwPtunsSLvSqXQ2wfp7Mgqg1I+2dQ==}
 
@@ -3375,8 +3379,8 @@ packages:
     resolution: {integrity: sha512-yTgzioUI9MKgBF4LxP7YI+uuZLrnXgHDeW4dpa3VqCNbDmPzL7ix93tc0JJIwWGcskoSAAHZZVaBSp8bHyZZZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  astro-font@0.0.72:
-    resolution: {integrity: sha512-FUjIerovSg2lsfJfvvqY23hgvc++gHi69ikFkxm0mqO3MPFykK5ppeUuROUjhNbE6vwdD8MpiJOy1CR5S0g/lQ==}
+  astro-font@1.0.0:
+    resolution: {integrity: sha512-g0Oobl1oBg/GHaAzA2HdIWjbQic19wfSswHvBO+N+wKgWCfCjh0ANiOA3UBzMgUHJ67wqfoM4NZTq9+parkhOw==}
 
   astro@4.0.8:
     resolution: {integrity: sha512-LwbYUfdrfys5mtI6cA5V8UvPRUVVTRQ68uF1ylrEge6BkPcHHJ7qCYLNdjnNPxZDR9bWi1awILJESB6j+w0P4w==}
@@ -8975,7 +8979,7 @@ snapshots:
 
   '@graphql-codegen/plugin-helpers@5.1.0(graphql@15.8.0)':
     dependencies:
-      '@graphql-tools/utils': 10.8.2(graphql@15.8.0)
+      '@graphql-tools/utils': 10.8.3(graphql@15.8.0)
       change-case-all: 1.0.15
       common-tags: 1.8.2
       graphql: 15.8.0
@@ -8986,7 +8990,7 @@ snapshots:
   '@graphql-codegen/schema-ast@4.0.0(graphql@15.8.0)':
     dependencies:
       '@graphql-codegen/plugin-helpers': 5.1.0(graphql@15.8.0)
-      '@graphql-tools/utils': 10.8.2(graphql@15.8.0)
+      '@graphql-tools/utils': 10.8.3(graphql@15.8.0)
       graphql: 15.8.0
       tslib: 2.5.3
 
@@ -9127,7 +9131,7 @@ snapshots:
   '@graphql-tools/relay-operation-optimizer@7.0.0(encoding@0.1.13)(graphql@15.8.0)':
     dependencies:
       '@ardatan/relay-compiler': 12.0.0(encoding@0.1.13)(graphql@15.8.0)
-      '@graphql-tools/utils': 10.8.2(graphql@15.8.0)
+      '@graphql-tools/utils': 10.8.3(graphql@15.8.0)
       graphql: 15.8.0
       tslib: 2.8.1
     transitivePeerDependencies:
@@ -9149,9 +9153,10 @@ snapshots:
       graphql: 15.8.0
       tslib: 2.8.1
 
-  '@graphql-tools/utils@10.8.2(graphql@15.8.0)':
+  '@graphql-tools/utils@10.8.3(graphql@15.8.0)':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.8.0)
+      '@whatwg-node/promise-helpers': 1.2.2
       cross-inspect: 1.0.1
       dset: 3.1.4
       graphql: 15.8.0
@@ -12570,6 +12575,10 @@ snapshots:
       readable-stream: 4.4.2
       varint: 5.0.2
 
+  '@whatwg-node/promise-helpers@1.2.2':
+    dependencies:
+      tslib: 2.8.1
+
   '@xobotyi/scrollbar-width@1.9.5': {}
 
   '@xstate/react@3.0.0(@types/react@19.0.10)(react@17.0.2)':
@@ -12758,7 +12767,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro-font@0.0.72: {}
+  astro-font@1.0.0: {}
 
   astro@4.0.8(typescript@5.7.3):
     dependencies:
