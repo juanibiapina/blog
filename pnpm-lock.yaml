@@ -22,8 +22,8 @@ importers:
         specifier: 2.3.1
         version: 2.3.1(astro@4.16.18(rollup@3.29.4)(typescript@5.8.2))
       '@astrojs/sitemap':
-        specifier: 3.0.4
-        version: 3.0.4
+        specifier: 3.2.1
+        version: 3.2.1
       '@astrojs/tailwind':
         specifier: 6.0.0
         version: 6.0.0(astro@4.16.18(rollup@3.29.4)(typescript@5.8.2))(tailwindcss@3.4.17)
@@ -158,8 +158,8 @@ packages:
   '@astrojs/rss@4.0.11':
     resolution: {integrity: sha512-3e3H8i6kc97KGnn9iaZBJpIkdoQi8MmR5zH5R+dWsfCM44lLTszOqy1OBfGGxDt56mpQkYVtZJWoxMyWuUZBfw==}
 
-  '@astrojs/sitemap@3.0.4':
-    resolution: {integrity: sha512-RSqiqs0oD8zTGaClHM0YB8n7e5En+Ihi+6qKthWf47pRkzHpENwlPGvKuEL0kUFXq+GzYot9e2JYH58gtr2q0w==}
+  '@astrojs/sitemap@3.2.1':
+    resolution: {integrity: sha512-uxMfO8f7pALq0ADL6Lk68UV6dNYjJ2xGUzyjjVj60JLBs5a6smtlkBYv3tQ0DzoqwS7c9n4FUx5lgv0yPo/fgA==}
 
   '@astrojs/tailwind@6.0.0':
     resolution: {integrity: sha512-GbEK2/h0nvY8i6g1GZT5ddHAgj71lQIf34/j7+jPLhUti3xDxKcWElApDe2jWvqAaKl2oKEh045ITSm8mU9BVQ==}
@@ -2128,8 +2128,8 @@ packages:
   '@types/react@19.0.10':
     resolution: {integrity: sha512-JuRQ9KXLEjaUNjTWpzuR231Z2WpIwczOkBEIvbHNCzQefFIT0L8IqE6NV6ULLyC1SI/i234JnDoMkfg+RjQj2g==}
 
-  '@types/sax@1.2.6':
-    resolution: {integrity: sha512-A1mpYCYu1aHFayy8XKN57ebXeAbh9oQIZ1wXcno6b1ESUAfMBDMx7mf/QGlYwcMRaFryh9YBuH03i/3FlPGDkQ==}
+  '@types/sax@1.2.7':
+    resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
 
   '@types/tern@0.23.6':
     resolution: {integrity: sha512-ntalN+F2msUwz7/OCCADN4FwxtIGqF4Hqwxd15yAn0VOUozj1VaIrH4Prh95N8y69K3bQpHFVGwTJDZC4oRtvA==}
@@ -6904,8 +6904,8 @@ packages:
   sass-formatter@0.7.9:
     resolution: {integrity: sha512-CWZ8XiSim+fJVG0cFLStwDvft1VI7uvXdCNJYXhDvowiv+DsbD1nXLiQ4zrE5UBvj5DWZJ93cwN0NX5PMsr1Pw==}
 
-  sax@1.3.0:
-    resolution: {integrity: sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA==}
+  sax@1.4.1:
+    resolution: {integrity: sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==}
 
   scheduler@0.19.0:
     resolution: {integrity: sha512-xowbVaTPe9r7y7RUejcK73/j8tt2jfiyTednOvHbA8JoClvMYCp+r8QegLwK/n8zWQAtZb1fFnER4XLBZXrCxA==}
@@ -7029,9 +7029,9 @@ packages:
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
 
-  sitemap@7.1.1:
-    resolution: {integrity: sha512-mK3aFtjz4VdJN0igpIJrinf3EO8U8mxOPsTBzSsy06UtjZQJ3YY3o3Xa7zSc5nMqcMrRwlChHZ18Kxg0caiPBg==}
-    engines: {node: '>=12.0.0', npm: '>=5.6.0'}
+  sitemap@8.0.0:
+    resolution: {integrity: sha512-+AbdxhM9kJsHtruUF39bwS/B0Fytw6Fr1o4ZAIAEqA6cke2xcoO2GleBw9Zw7nRzILVEgz7zBM5GiTJjie1G9A==}
+    engines: {node: '>=14.0.0', npm: '>=6.0.0'}
     hasBin: true
 
   slash@3.0.0:
@@ -7158,6 +7158,9 @@ packages:
 
   stopword@3.1.4:
     resolution: {integrity: sha512-RiyU12FwHWX1i42gxhn5sywgpV5mptZTzbHKqKh5wVDWC2Uu+8vKbLv8xxeNa0p29vECbYGLXpDayo54n9+dsg==}
+
+  stream-replace-string@2.0.0:
+    resolution: {integrity: sha512-TlnjJ1C0QrmxRNrON00JvaFFlNh5TTG00APw23j74ET7gkQpTASi6/L2fuiav8pzK715HXtUeClpBTw2NPSn6w==}
 
   streamroller@3.1.5:
     resolution: {integrity: sha512-KFxaM7XT+irxvdqSP1LGLgNWbYN7ay5owZ3r/8t77p+EtSUAfUgtl7be3xtqtOmGUl9K9YPO2ca8133RlTjvKw==}
@@ -8146,10 +8149,11 @@ snapshots:
       fast-xml-parser: 4.5.1
       kleur: 4.1.5
 
-  '@astrojs/sitemap@3.0.4':
+  '@astrojs/sitemap@3.2.1':
     dependencies:
-      sitemap: 7.1.1
-      zod: 3.22.4
+      sitemap: 8.0.0
+      stream-replace-string: 2.0.0
+      zod: 3.24.2
 
   '@astrojs/tailwind@6.0.0(astro@4.16.18(rollup@3.29.4)(typescript@5.8.2))(tailwindcss@3.4.17)':
     dependencies:
@@ -10024,7 +10028,7 @@ snapshots:
       tailwindcss: 3.4.17
       tinacms: 1.5.22(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       typescript: 4.9.5
-      zod: 3.22.4
+      zod: 3.24.2
     transitivePeerDependencies:
       - '@babel/core'
       - '@babel/template'
@@ -10342,7 +10346,7 @@ snapshots:
       react: 17.0.2
       url-pattern: 1.0.3
       yup: 0.32.11
-      zod: 3.22.4
+      zod: 3.24.2
 
   '@tinacms/schema-tools@1.7.0(react@17.0.2)(yup@0.32.11)':
     dependencies:
@@ -10507,7 +10511,7 @@ snapshots:
     dependencies:
       csstype: 3.1.3
 
-  '@types/sax@1.2.6':
+  '@types/sax@1.2.7':
     dependencies:
       '@types/node': 17.0.45
 
@@ -17416,7 +17420,7 @@ snapshots:
     dependencies:
       suf-log: 2.5.3
 
-  sax@1.3.0: {}
+  sax@1.4.1: {}
 
   scheduler@0.19.0:
     dependencies:
@@ -17603,12 +17607,12 @@ snapshots:
 
   sisteransi@1.0.5: {}
 
-  sitemap@7.1.1:
+  sitemap@8.0.0:
     dependencies:
       '@types/node': 17.0.45
-      '@types/sax': 1.2.6
+      '@types/sax': 1.2.7
       arg: 5.0.2
-      sax: 1.3.0
+      sax: 1.4.1
 
   slash@3.0.0: {}
 
@@ -17748,6 +17752,8 @@ snapshots:
   stopword@2.0.8: {}
 
   stopword@3.1.4: {}
+
+  stream-replace-string@2.0.0: {}
 
   streamroller@3.1.5:
     dependencies:
@@ -18010,7 +18016,7 @@ snapshots:
       slate-react: 0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1)
       webfontloader: 1.6.28
       yup: 0.32.11
-      zod: 3.22.4
+      zod: 3.24.2
     transitivePeerDependencies:
       - '@babel/core'
       - '@babel/template'
