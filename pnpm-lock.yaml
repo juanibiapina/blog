@@ -35,7 +35,7 @@ importers:
         version: 0.5.16(tailwindcss@3.4.17)
       '@tinacms/cli':
         specifier: ^1.5.30
-        version: 1.5.31(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(encoding@0.1.13)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(rollup@3.29.4)
+        version: 1.5.31(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(encoding@0.1.13)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(rollup@3.29.4)
       '@typescript-eslint/parser':
         specifier: ^7.18.0
         version: 7.18.0(eslint@8.56.0)(typescript@5.8.2)
@@ -88,8 +88,8 @@ importers:
         specifier: 3.4.17
         version: 3.4.17
       tinacms:
-        specifier: ^2.6.4
-        version: 2.6.4(@types/react@19.0.10)(abstract-level@1.0.3)(immer@10.1.1)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(sucrase@3.35.0)(typescript@5.8.2)
+        specifier: ^2.7.2
+        version: 2.7.2(@types/react@19.0.10)(abstract-level@1.0.3)(immer@10.1.1)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(sucrase@3.35.0)(typescript@5.8.2)
       typescript:
         specifier: ^5.8.2
         version: 5.8.2
@@ -442,8 +442,8 @@ packages:
     resolution: {integrity: sha512-mM8eg4yl5D6i3lu2QKPuPH4FArvJ8KhTofbE7jwMUv9KX5mBvwPAqnV3MlyBNqdp9RyRKP6Yck8TrfYrPvX3bg==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/runtime@7.26.9':
-    resolution: {integrity: sha512-aA63XwOkcl4xxQa3HjPMqOP6LiK0ZDv3mUPYEFXkpHbaFjtGggE1A61FjFzJnB+p7/oy2gA8E+rcBNl/zC1tMg==}
+  '@babel/runtime@7.26.10':
+    resolution: {integrity: sha512-2WJMeRQPHKSPemqk/awGrAiuFfzBmOIPXKizAsVhWH9YJqLZ0H+HS4c8loHGgW6utJ3E/ejXQUsiGaQy2NZ9Fw==}
     engines: {node: '>=6.9.0'}
 
   '@babel/template@7.26.9':
@@ -956,8 +956,8 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
-  '@graphql-tools/utils@10.8.4':
-    resolution: {integrity: sha512-HpHBgcmLIE79jWk1v5Bm0Eb8MaPiwSJT/Iy5xIJ+GMe7yAKpCYrbjf7wb+UMDMkLkfEryvo3syCx8k+TMAZ9bA==}
+  '@graphql-tools/utils@10.8.6':
+    resolution: {integrity: sha512-Alc9Vyg0oOsGhRapfL3xvqh1zV8nKoFUdtLhXX7Ki4nClaIJXckrA86j+uxEuG3ic6j4jlM1nvcWXRn/71AVLQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -1659,8 +1659,8 @@ packages:
   '@radix-ui/rect@1.1.0':
     resolution: {integrity: sha512-A9+lCBZoaMJlVKcRBz2YByCG+Cp2t6nAnMnNba+XiWxnj6r4JUFqfsgwocMBZU9LPtdxC6wB56ySYpc7LQIoJg==}
 
-  '@react-aria/focus@3.19.1':
-    resolution: {integrity: sha512-bix9Bu1Ue7RPcYmjwcjhB14BMu2qzfJ3tMQLqDc9pweJA66nOw8DThy3IfVr8Z7j2PHktOLf9kcbiZpydKHqzg==}
+  '@react-aria/focus@3.20.1':
+    resolution: {integrity: sha512-lgYs+sQ1TtBrAXnAdRBQrBo0/7o5H6IrfDxec1j+VRpcXL0xyk0xPq+m3lZp8typzIghqDgpnKkJ5Jf4OrzPIw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
@@ -1670,8 +1670,8 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
 
-  '@react-aria/interactions@3.23.0':
-    resolution: {integrity: sha512-0qR1atBIWrb7FzQ+Tmr3s8uH5mQdyRH78n0krYaG8tng9+u1JlSi8DGRSaC9ezKyNB84m7vHT207xnHXGeJ3Fg==}
+  '@react-aria/interactions@3.24.1':
+    resolution: {integrity: sha512-OWEcIC6UQfWq4Td5Ptuh4PZQ4LHLJr/JL2jGYvuNL6EgL3bWvzPrRYIF/R64YbfVxIC7FeZpPSkS07sZ93/NoA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
@@ -1693,8 +1693,8 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
 
-  '@react-aria/utils@3.27.0':
-    resolution: {integrity: sha512-p681OtApnKOdbeN8ITfnnYqfdHS0z7GE+4l8EXlfLnr70Rp/9xicBO6d2rU+V/B3JujDw2gPWxYKEnEeh0CGCw==}
+  '@react-aria/utils@3.28.1':
+    resolution: {integrity: sha512-mnHFF4YOVu9BRFQ1SZSKfPhg3z+lBRYoW5mLcYTQihbKhz48+I1sqRkP7ahMITr8ANH3nb34YaMME4XWmK2Mgg==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
@@ -1724,6 +1724,9 @@ packages:
     peerDependencies:
       react: '>=16.8'
 
+  '@react-stately/flags@3.1.0':
+    resolution: {integrity: sha512-KSHOCxTFpBtxhIRcKwsD1YDTaNxFtCYuAUb0KEihc16QwqZViq4hasgPBs2gYm7fHRbw7WYzWKf6ZSo/+YsFlg==}
+
   '@react-stately/utils@3.10.5':
     resolution: {integrity: sha512-iMQSGcpaecghDIh3mZEpZfoFH3ExBwTtuBEcvZ2XnGzCgQjeYXcMdIUwAfVQLXFTdHUHGF6Gu6/dFrYsCzySBQ==}
     peerDependencies:
@@ -1744,8 +1747,8 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
 
-  '@react-types/shared@3.27.0':
-    resolution: {integrity: sha512-gvznmLhi6JPEf0bsq7SwRYTHAKKq/wcmKqFez9sRdbED+SPMUmK5omfZ6w3EwUFQHbYUa4zPBYedQ7Knv70RMw==}
+  '@react-types/shared@3.28.0':
+    resolution: {integrity: sha512-9oMEYIDc3sk0G5rysnYvdNrkSg7B04yTKl50HHSZVbokeHpnU0yRmsDaWb9B/5RprcKj8XszEk5guBO8Sa/Q+Q==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
 
@@ -1975,14 +1978,14 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1'
 
-  '@tanstack/react-virtual@3.13.0':
-    resolution: {integrity: sha512-CchF0NlLIowiM2GxtsoKBkXA4uqSnY2KvnXo+kyUFD4a4ll6+J0qzoRsUPMwXV/H26lRsxgJIr/YmjYum2oEjg==}
+  '@tanstack/react-virtual@3.13.4':
+    resolution: {integrity: sha512-jPWC3BXvVLHsMX67NEHpJaZ+/FySoNxFfBEiF4GBc1+/nVwdRm+UcSCYnKP3pXQr0eEsDpXi/PQZhNfJNopH0g==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  '@tanstack/virtual-core@3.13.0':
-    resolution: {integrity: sha512-NBKJP3OIdmZY3COJdWkSonr50FMVIi+aj5ZJ7hI/DTpEKg2RMfo/KvP8A3B/zOSpMgIe52B5E2yn7rryULzA6g==}
+  '@tanstack/virtual-core@3.13.4':
+    resolution: {integrity: sha512-fNGO9fjjSLns87tlcto106enQQLycCKR4DPNpgq3djP5IdcPFdPAmaKjsgzIeRhH7hWrELgW12hYnRthS5kLUw==}
 
   '@tinacms/app@1.2.29':
     resolution: {integrity: sha512-TDTP8Qe6RNjBegPpCLj8V7SQLJ0/T3v4StvkHHaAQb0C8j5ombfm+FF0sFFWoU5mT/EP0JY1+f1nl4+pkLs79Q==}
@@ -1997,14 +2000,14 @@ packages:
   '@tinacms/graphql@1.4.27':
     resolution: {integrity: sha512-QEIYPcLejM696djj6Flx0T5Y4IN4zBMp06tqvMVUUxFSrNGnC/xpHZ7OTglBZtfErapjcHIjf09YCoLhCiLXfw==}
 
-  '@tinacms/graphql@1.5.12':
-    resolution: {integrity: sha512-hHTwbfwuleor396U6a5XfzeZOWOSb+PFhaCwv/Je5hMHnwZqBh1n/pODzQ/xLC3PW0WiQ5T3MYUqSciWUQOC5Q==}
+  '@tinacms/graphql@1.5.14':
+    resolution: {integrity: sha512-x8IA0Jga0cfLpCpcg4bP8BmAC7Q0mkEOj0aXDlYGcp5dFKBi8A7n0ep71J4FCzPITWSNzwzzHUI1LoArV9UG6Q==}
 
   '@tinacms/mdx@1.3.20':
     resolution: {integrity: sha512-2t2Djrb8JR1JBeZATkeTr2Nh7ZstmjrFR1fgWhHivH047eqPy1vpffJwivXNV0NneAACyFfyXj6asN+GBi5Ung==}
 
-  '@tinacms/mdx@1.5.4':
-    resolution: {integrity: sha512-eVBE/XKs8fyr98sGFVilqiXAgIlKSoyF4F4y/WcR7pQyqUh+9i64ncZVAlH/jRJSl1wQKrHCYReafgTk4DBhWg==}
+  '@tinacms/mdx@1.6.1':
+    resolution: {integrity: sha512-F7fA1DCs2ZqrirQ/9ZEzOQ6ZakjvGFsMf9zJNWUWFyvvB0e/h1xgLhBh19jNK3PU6QW7v3jO4l3v90fBGCopLA==}
 
   '@tinacms/metrics@1.0.2':
     resolution: {integrity: sha512-PoXdZDXi3C4GqnPoTAEQWfKR1XxocOzTBje8dpTxTQ2J9WIeSUXKg8Gd1kNUVgW4XIZH6vtWqhqr1Ir8/O9M8w==}
@@ -2017,8 +2020,8 @@ packages:
       react: '>=16.14.0'
       yup: ^0.32.0
 
-  '@tinacms/schema-tools@1.7.0':
-    resolution: {integrity: sha512-gYBcZHsfFlXj+VN5v41scOYoQAqf0spmoHhicsllPy3jkhZgrFCU/JZPE680EaXxUqNJ+nPdNlhaeULYkLVlAA==}
+  '@tinacms/schema-tools@1.7.2':
+    resolution: {integrity: sha512-xo6lycoEmjfk9XgcvdBg6kIKKu+pu9NumPHdSB5Fr6Ti9HBLMru0tRjRdOikCZqG+4DeEyTunUHPl6oMWR9feQ==}
     peerDependencies:
       react: '>=16.14.0'
       yup: ^0.32.0
@@ -2026,8 +2029,8 @@ packages:
   '@tinacms/search@1.0.12':
     resolution: {integrity: sha512-MQbFuUeXz0scw53LEoi07acTVLuiQQez/VVchx+ZilOfkAoBI9wXPWDb0+irFVEzvXS5HuIO3OwO1fG84pZT9Q==}
 
-  '@tinacms/search@1.0.39':
-    resolution: {integrity: sha512-jxSYLEa+vMuP8m9zU2zazzZ765R4epPlTLa16+tI2vGxDvHlJ4wLG+wmwfUICbdKps9wIbYTaybzQy6NC8jWeA==}
+  '@tinacms/search@1.0.41':
+    resolution: {integrity: sha512-g2GIvezAMIktAZAf07kYjWWRm7r6qQXb81K2XBwN+GfH7KslteoAF+yKUYG5rk+Uv2y+5UaRhUqftMg0PIVYew==}
 
   '@tinacms/sharedctx@1.0.2':
     resolution: {integrity: sha512-YApW5GZDauOGRw+edUk7XE8xq84qZbeiT9MsylhlLfDo3oPWvJVtPUHjbXQo45pSyHHEAIfDF0AcNANp193cXw==}
@@ -2089,8 +2092,8 @@ packages:
   '@types/lodash@4.14.200':
     resolution: {integrity: sha512-YI/M/4HRImtNf3pJgbF+W6FrXovqj+T+/HpENLTooK9PnkacBsDpeP3IpHab40CClUfhNmdM2WTNP2sa2dni5Q==}
 
-  '@types/lodash@4.17.15':
-    resolution: {integrity: sha512-w/P33JFeySuhN6JLkysYUK2gEmy9kHHFN7E8ro0tkfmlDOgxBDzWEZ/J8cWA+fHqFevpswDTFZnDx+R9lbL6xw==}
+  '@types/lodash@4.17.16':
+    resolution: {integrity: sha512-HX7Em5NYQAXKW+1T+FiuG27NGwzJfCX3s1GjOa7ujxZa52kjJLOr4FUxT+giF6Tgxv1e+/czV/iTtBw27WTU9g==}
 
   '@types/mdast@3.0.15':
     resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
@@ -3422,8 +3425,8 @@ packages:
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
 
-  better-sqlite3@11.8.1:
-    resolution: {integrity: sha512-9BxNaBkblMjhJW8sMRZxnxVTRgbRmssZW0Oxc1MPBTfiR+WW21e2Mk4qu8CzrcZb1LwPCnFsfDEzq+SNcBU8eg==}
+  better-sqlite3@11.9.0:
+    resolution: {integrity: sha512-4b9xYnoaskj8eIkke9ZCB42p5bOPabptSku8Rl4Yww70Jf+aHeLvrIjXDJrKQxUEjdppsFb+fdJSjoH4TklROA==}
 
   better-sqlite3@8.7.0:
     resolution: {integrity: sha512-99jZU4le+f3G6aIl6PmmV0cxUIWqKieHxsiF7G34CVFiE+/UabpYqkU0NJIkY/96mQKikHeBjtR27vFfs5JpEw==}
@@ -3648,8 +3651,8 @@ packages:
     resolution: {integrity: sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==}
     engines: {node: '>=6'}
 
-  cmdk@1.0.4:
-    resolution: {integrity: sha512-AnsjfHyHpQ/EFeAnG216WY7A5LiYCoZzCSygiLvfXC3H3LFGCprErteUcszaVluGOhuOTbJS3jWHrSDYPBBygg==}
+  cmdk@1.1.1:
+    resolution: {integrity: sha512-Vsv7kFaXm+ptHDMZ7izaRsP70GgrW9NBNGswt9OZaVBLlE0SNpDq8eu/VGXyF9r7M0azK3Wy7OlYXsuyYLFzHg==}
     peerDependencies:
       react: ^18 || ^19 || ^19.0.0-rc
       react-dom: ^18 || ^19 || ^19.0.0-rc
@@ -3982,8 +3985,8 @@ packages:
     resolution: {integrity: sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==}
     engines: {node: '>=0.10.0'}
 
-  decode-named-character-reference@1.0.2:
-    resolution: {integrity: sha512-O8x12RzrUF8xyVcY0KJowWsmaJxQbmy0/EtnNtHRpsOcT7dFk5W598coHqBVpmWo1oQQfsCqfCmkZN5DJrZVdg==}
+  decode-named-character-reference@1.1.0:
+    resolution: {integrity: sha512-Wy+JTSbFThEOXQIR2L6mxJvEs+veIzpmqD7ynWxMXGpnk3smkHQOp6forLdHsKpAMW9iJpaBBIxz285t1n1C3w==}
 
   decompress-response@6.0.0:
     resolution: {integrity: sha512-aW35yZM6Bb/4oJlZncMH2LCoZtJXTRxES17vE3hoRiowU2kWHaJKFkSBDnDR+cm9J+9QhXmREyIfv0pji9ejCQ==}
@@ -5146,8 +5149,8 @@ packages:
       jotai-zustand:
         optional: true
 
-  jotai@2.12.0:
-    resolution: {integrity: sha512-j5B4NmUw8gbuN7AG4NufWw00rfpm6hexL2CVhKD7juoP2YyD9FEUV5ar921JMvadyrxQhU1NpuKUL3QfsAlVpA==}
+  jotai@2.12.2:
+    resolution: {integrity: sha512-oN8715y7MkjXlSrpyjlR887TOuc/NLZMs9gvgtfWH/JP47ChwO0lR2ijSwBvPMYyXRAPT+liIAhuBavluKGgtA==}
     engines: {node: '>=12.20.0'}
     peerDependencies:
       '@types/react': '>=17.0.0'
@@ -5806,9 +5809,6 @@ packages:
   micromark-util-subtokenize@1.1.0:
     resolution: {integrity: sha512-kUQHyzRoxvZO2PuLzMt2P/dwVsTiivCK8icYTeR+3WgbuPqfHgPPy7nFKbeqRivBvn/3N3GBiNC+JRTMSxEC7A==}
 
-  micromark-util-subtokenize@2.0.4:
-    resolution: {integrity: sha512-N6hXjrin2GTJDe3MVjf5FuXpm12PGm80BrUAeub9XFXca8JZbP+oIwY4LJSVwFUCL1IPm/WwSVUN7goFHmSGGQ==}
-
   micromark-util-subtokenize@2.1.0:
     resolution: {integrity: sha512-XQLu552iSctvnEcgXw6+Sx75GflAPNED1qx7eBJ+wydBb2KCbRZe+NwvIEEMM83uml1+2WSXpBAcp9IUCgCYWA==}
 
@@ -5820,9 +5820,6 @@ packages:
 
   micromark-util-types@1.0.2:
     resolution: {integrity: sha512-DCfg/T8fcrhrRKTPjRrw/5LLvdGV7BHySf/1LOZx7TzWZdYRjogNtyNq885z3nNallwr3QUKARjqvHqX1/7t+w==}
-
-  micromark-util-types@2.0.1:
-    resolution: {integrity: sha512-534m2WhVTddrcKVepwmVEVnUAmtrx9bfIjNoQHRqfnvdaHQiFytEhJoTgpWJvDEXCO5gLTQh3wYC1PgOJA4NSQ==}
 
   micromark-util-types@2.0.2:
     resolution: {integrity: sha512-Yw0ECSpJoViF1qTU4DC6NwtC4aWGt1EkzaQB8KPPyCRR8z9TWeV0HbEFGTO+ZY1wB22zmxnJqhPyTpOVCpeHTA==}
@@ -5949,6 +5946,11 @@ packages:
 
   nanoclone@0.2.1:
     resolution: {integrity: sha512-wynEP02LmIbLpcYw8uBKpcfF6dmg2vcpKqxeH5UcoKEYdExslsdUA4ugFauuaeYdTB76ez6gJW8XAZ6CgkXYxA==}
+
+  nanoid@3.3.10:
+    resolution: {integrity: sha512-vSJJTG+t/dIKAUhUDw/dLdZ9s//5OxcHqLaDWWrW4Cdq7o6tdLIczUkMXt2MBNmk6sJRZBZRXVixs7URY1CmIg==}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
 
   nanoid@3.3.6:
     resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
@@ -6534,8 +6536,8 @@ packages:
     peerDependencies:
       react: '*'
 
-  react-icons@5.4.0:
-    resolution: {integrity: sha512-7eltJxgVt7X64oHh6wSWNwwbKTCtMfK35hcjvJS0yxEAhPM8oUKdS3+kqaW1vicIltw+kR2unHaa12S9pPALoQ==}
+  react-icons@5.5.0:
+    resolution: {integrity: sha512-MEFcXdkP3dLo8uumGI5xN3lDFNsRtrjbOEKDLD7yv76v4wpnEq2Lt2qeHaQOr34I/wPN3s3+N08WkQ+CW37Xiw==}
     peerDependencies:
       react: '*'
 
@@ -7326,8 +7328,8 @@ packages:
       react: '>=16.14.0'
       react-dom: '>=16.14.0'
 
-  tinacms@2.6.4:
-    resolution: {integrity: sha512-lQMZKbs/CS9YQmS5ZUP3UKKDY+31y7SLoiUZXfTCnvoJjXzbD6nQScZMy7m+qS/fO2uwDPlcdOEJnmoP8aXJAA==}
+  tinacms@2.7.2:
+    resolution: {integrity: sha512-rpoeK6wEyzgjUvo74+y31CAD6++zRdXCp4WzomOWTXr6t3OP2YJ2yczhkTJB1zq6cDIUe90sd5cYpPWqwuLzyQ==}
     peerDependencies:
       react: '>=16.14.0'
       react-dom: '>=16.14.0'
@@ -8027,7 +8029,7 @@ snapshots:
       '@babel/core': 7.26.9
       '@babel/generator': 7.26.9
       '@babel/parser': 7.26.9
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
       '@babel/traverse': 7.26.9
       '@babel/types': 7.26.9
       babel-preset-fbjs: 3.4.0(@babel/core@7.26.9)
@@ -8474,7 +8476,7 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.0
 
-  '@babel/runtime@7.26.9':
+  '@babel/runtime@7.26.10':
     dependencies:
       regenerator-runtime: 0.14.1
 
@@ -8826,7 +8828,7 @@ snapshots:
 
   '@graphql-codegen/plugin-helpers@5.1.0(graphql@15.8.0)':
     dependencies:
-      '@graphql-tools/utils': 10.8.4(graphql@15.8.0)
+      '@graphql-tools/utils': 10.8.6(graphql@15.8.0)
       change-case-all: 1.0.15
       common-tags: 1.8.2
       graphql: 15.8.0
@@ -8837,7 +8839,7 @@ snapshots:
   '@graphql-codegen/schema-ast@4.0.0(graphql@15.8.0)':
     dependencies:
       '@graphql-codegen/plugin-helpers': 5.1.0(graphql@15.8.0)
-      '@graphql-tools/utils': 10.8.4(graphql@15.8.0)
+      '@graphql-tools/utils': 10.8.6(graphql@15.8.0)
       graphql: 15.8.0
       tslib: 2.5.3
 
@@ -8978,7 +8980,7 @@ snapshots:
   '@graphql-tools/relay-operation-optimizer@7.0.0(encoding@0.1.13)(graphql@15.8.0)':
     dependencies:
       '@ardatan/relay-compiler': 12.0.0(encoding@0.1.13)(graphql@15.8.0)
-      '@graphql-tools/utils': 10.8.4(graphql@15.8.0)
+      '@graphql-tools/utils': 10.8.6(graphql@15.8.0)
       graphql: 15.8.0
       tslib: 2.8.1
     transitivePeerDependencies:
@@ -9000,7 +9002,7 @@ snapshots:
       graphql: 15.8.0
       tslib: 2.8.1
 
-  '@graphql-tools/utils@10.8.4(graphql@15.8.0)':
+  '@graphql-tools/utils@10.8.6(graphql@15.8.0)':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.8.0)
       '@whatwg-node/promise-helpers': 1.2.4
@@ -9031,7 +9033,7 @@ snapshots:
 
   '@headlessui/react@1.7.19(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     dependencies:
-      '@tanstack/react-virtual': 3.13.0(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@tanstack/react-virtual': 3.13.4(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       client-only: 0.0.1
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
@@ -9039,9 +9041,9 @@ snapshots:
   '@headlessui/react@2.1.8(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     dependencies:
       '@floating-ui/react': 0.26.28(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@react-aria/focus': 3.19.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@react-aria/interactions': 3.23.0(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@tanstack/react-virtual': 3.13.0(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@react-aria/focus': 3.20.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@react-aria/interactions': 3.24.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@tanstack/react-virtual': 3.13.4(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
 
@@ -9687,11 +9689,11 @@ snapshots:
 
   '@radix-ui/rect@1.1.0': {}
 
-  '@react-aria/focus@3.19.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
+  '@react-aria/focus@3.20.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     dependencies:
-      '@react-aria/interactions': 3.23.0(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@react-aria/utils': 3.27.0(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@react-types/shared': 3.27.0(react@17.0.2)
+      '@react-aria/interactions': 3.24.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@react-aria/utils': 3.28.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@react-types/shared': 3.28.0(react@17.0.2)
       '@swc/helpers': 0.5.15
       clsx: 2.1.1
       react: 17.0.2
@@ -9709,11 +9711,12 @@ snapshots:
       '@swc/helpers': 0.5.3
       react: 17.0.2
 
-  '@react-aria/interactions@3.23.0(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
+  '@react-aria/interactions@3.24.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     dependencies:
       '@react-aria/ssr': 3.9.7(react@17.0.2)
-      '@react-aria/utils': 3.27.0(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@react-types/shared': 3.27.0(react@17.0.2)
+      '@react-aria/utils': 3.28.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@react-stately/flags': 3.1.0
+      '@react-types/shared': 3.28.0(react@17.0.2)
       '@swc/helpers': 0.5.15
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
@@ -9737,11 +9740,12 @@ snapshots:
       clsx: 1.2.1
       react: 17.0.2
 
-  '@react-aria/utils@3.27.0(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
+  '@react-aria/utils@3.28.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     dependencies:
       '@react-aria/ssr': 3.9.7(react@17.0.2)
+      '@react-stately/flags': 3.1.0
       '@react-stately/utils': 3.10.5(react@17.0.2)
-      '@react-types/shared': 3.27.0(react@17.0.2)
+      '@react-types/shared': 3.28.0(react@17.0.2)
       '@swc/helpers': 0.5.15
       clsx: 2.1.1
       react: 17.0.2
@@ -9772,6 +9776,10 @@ snapshots:
       '@react-hook/throttle': 2.2.0(react@17.0.2)
       react: 17.0.2
 
+  '@react-stately/flags@3.1.0':
+    dependencies:
+      '@swc/helpers': 0.5.15
+
   '@react-stately/utils@3.10.5(react@17.0.2)':
     dependencies:
       '@swc/helpers': 0.5.15
@@ -9791,7 +9799,7 @@ snapshots:
     dependencies:
       react: 17.0.2
 
-  '@react-types/shared@3.27.0(react@17.0.2)':
+  '@react-types/shared@3.28.0(react@17.0.2)':
     dependencies:
       react: 17.0.2
 
@@ -9996,15 +10004,15 @@ snapshots:
       postcss-selector-parser: 6.0.10
       tailwindcss: 3.4.17
 
-  '@tanstack/react-virtual@3.13.0(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
+  '@tanstack/react-virtual@3.13.4(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     dependencies:
-      '@tanstack/virtual-core': 3.13.0
+      '@tanstack/virtual-core': 3.13.4
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
 
-  '@tanstack/virtual-core@3.13.0': {}
+  '@tanstack/virtual-core@3.13.4': {}
 
-  '@tinacms/app@1.2.29(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(yup@0.32.11)':
+  '@tinacms/app@1.2.29(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(yup@0.32.11)':
     dependencies:
       '@codemirror/language': 6.0.0
       '@graphiql/toolkit': 0.8.4(graphql@15.8.0)
@@ -10022,7 +10030,7 @@ snapshots:
       react-dom: 17.0.2(react@17.0.2)
       react-router-dom: 6.3.0(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       tailwindcss: 3.4.17
-      tinacms: 1.5.22(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      tinacms: 1.5.22(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       typescript: 4.9.5
       zod: 3.22.4
     transitivePeerDependencies:
@@ -10048,7 +10056,7 @@ snapshots:
       - xstate
       - yup
 
-  '@tinacms/cli@1.5.31(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(encoding@0.1.13)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(rollup@3.29.4)':
+  '@tinacms/cli@1.5.31(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(encoding@0.1.13)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(rollup@3.29.4)':
     dependencies:
       '@graphql-codegen/core': 2.6.8(graphql@15.8.0)
       '@graphql-codegen/plugin-helpers': 5.1.0(graphql@15.8.0)
@@ -10064,7 +10072,7 @@ snapshots:
       '@tailwindcss/aspect-ratio': 0.4.2(tailwindcss@3.4.17)
       '@tailwindcss/line-clamp': 0.3.1(tailwindcss@3.4.17)
       '@tailwindcss/typography': 0.5.16(tailwindcss@3.4.17)
-      '@tinacms/app': 1.2.29(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(yup@0.32.11)
+      '@tinacms/app': 1.2.29(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(yup@0.32.11)
       '@tinacms/datalayer': 1.2.27(react@17.0.2)
       '@tinacms/graphql': 1.4.27(react@17.0.2)
       '@tinacms/metrics': 1.0.2(encoding@0.1.13)(fs-extra@9.1.0)
@@ -10108,7 +10116,7 @@ snapshots:
       readable-stream: 4.4.2
       rollup-plugin-visualizer: 5.9.2(rollup@3.29.4)
       tailwindcss: 3.4.17
-      tinacms: 1.5.22(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      tinacms: 1.5.22(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       typanion: 3.13.0
       url-pattern: 1.0.3
       vite: 4.5.0
@@ -10186,11 +10194,11 @@ snapshots:
       - react
       - supports-color
 
-  '@tinacms/graphql@1.5.12(react@17.0.2)(typescript@5.8.2)':
+  '@tinacms/graphql@1.5.14(react@17.0.2)(typescript@5.8.2)':
     dependencies:
       '@iarna/toml': 2.2.5
-      '@tinacms/mdx': 1.5.4(react@17.0.2)(typescript@5.8.2)(yup@0.32.11)
-      '@tinacms/schema-tools': 1.7.0(react@17.0.2)(yup@0.32.11)
+      '@tinacms/mdx': 1.6.1(react@17.0.2)(typescript@5.8.2)(yup@0.32.11)
+      '@tinacms/schema-tools': 1.7.2(react@17.0.2)(yup@0.32.11)
       abstract-level: 1.0.4
       date-fns: 2.30.0
       fast-glob: 3.3.3
@@ -10253,9 +10261,9 @@ snapshots:
       - supports-color
       - yup
 
-  '@tinacms/mdx@1.5.4(react@17.0.2)(typescript@5.8.2)(yup@0.32.11)':
+  '@tinacms/mdx@1.6.1(react@17.0.2)(typescript@5.8.2)(yup@0.32.11)':
     dependencies:
-      '@tinacms/schema-tools': 1.7.0(react@17.0.2)(yup@0.32.11)
+      '@tinacms/schema-tools': 1.7.2(react@17.0.2)(yup@0.32.11)
       acorn: 8.8.2
       ccount: 2.0.1
       estree-util-is-identifier-name: 2.1.0
@@ -10291,9 +10299,9 @@ snapshots:
       - typescript
       - yup
 
-  '@tinacms/mdx@1.5.4(react@17.0.2)(typescript@5.8.2)(yup@1.6.1)':
+  '@tinacms/mdx@1.6.1(react@17.0.2)(typescript@5.8.2)(yup@1.6.1)':
     dependencies:
-      '@tinacms/schema-tools': 1.7.0(react@17.0.2)(yup@1.6.1)
+      '@tinacms/schema-tools': 1.7.2(react@17.0.2)(yup@1.6.1)
       acorn: 8.8.2
       ccount: 2.0.1
       estree-util-is-identifier-name: 2.1.0
@@ -10344,7 +10352,7 @@ snapshots:
       yup: 0.32.11
       zod: 3.22.4
 
-  '@tinacms/schema-tools@1.7.0(react@17.0.2)(yup@0.32.11)':
+  '@tinacms/schema-tools@1.7.2(react@17.0.2)(yup@0.32.11)':
     dependencies:
       picomatch-browser: 2.2.6
       react: 17.0.2
@@ -10352,7 +10360,7 @@ snapshots:
       yup: 0.32.11
       zod: 3.24.2
 
-  '@tinacms/schema-tools@1.7.0(react@17.0.2)(yup@1.6.1)':
+  '@tinacms/schema-tools@1.7.2(react@17.0.2)(yup@1.6.1)':
     dependencies:
       picomatch-browser: 2.2.6
       react: 17.0.2
@@ -10377,10 +10385,10 @@ snapshots:
       - supports-color
       - yup
 
-  '@tinacms/search@1.0.39(abstract-level@1.0.3)(react@17.0.2)(sucrase@3.35.0)(typescript@5.8.2)(yup@1.6.1)':
+  '@tinacms/search@1.0.41(abstract-level@1.0.3)(react@17.0.2)(sucrase@3.35.0)(typescript@5.8.2)(yup@1.6.1)':
     dependencies:
-      '@tinacms/graphql': 1.5.12(react@17.0.2)(typescript@5.8.2)
-      '@tinacms/schema-tools': 1.7.0(react@17.0.2)(yup@1.6.1)
+      '@tinacms/graphql': 1.5.14(react@17.0.2)(typescript@5.8.2)
+      '@tinacms/schema-tools': 1.7.2(react@17.0.2)(yup@1.6.1)
       memory-level: 1.0.0
       search-index: 4.0.0(abstract-level@1.0.3)
       sqlite-level: 1.2.1(sucrase@3.35.0)
@@ -10464,7 +10472,7 @@ snapshots:
 
   '@types/lodash@4.14.200': {}
 
-  '@types/lodash@4.17.15': {}
+  '@types/lodash@4.17.16': {}
 
   '@types/mdast@3.0.15':
     dependencies:
@@ -10597,9 +10605,9 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@udecode/plate-alignment@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-alignment@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -10631,9 +10639,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-autoformat@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-autoformat@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -10666,13 +10674,13 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-basic-elements@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-basic-elements@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-block-quote': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-code-block': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-heading': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-paragraph': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-block-quote': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-code-block': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-heading': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-paragraph': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -10708,9 +10716,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-basic-marks@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-basic-marks@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -10742,9 +10750,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-block-quote@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-block-quote@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -10776,9 +10784,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-break@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-break@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -10810,9 +10818,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-button@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-button@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -10834,9 +10842,9 @@ snapshots:
       - react-native
       - scheduler
 
-  '@udecode/plate-code-block@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-code-block@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       prismjs: 1.29.0
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
@@ -10869,10 +10877,10 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-combobox@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-combobox@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-floating': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-floating': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       downshift: 6.1.12(react@17.0.2)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
@@ -10907,10 +10915,10 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-comments@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-comments@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-button': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-button': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -10943,10 +10951,10 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-common@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-common@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-core': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-utils': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-core': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-utils': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       '@udecode/slate': 21.4.1(slate-history@0.93.0(slate@0.94.1))(slate@0.94.1)
       '@udecode/slate-react': 21.4.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       '@udecode/slate-utils': 21.4.1(slate-history@0.93.0(slate@0.94.1))(slate@0.94.1)
@@ -10993,16 +11001,16 @@ snapshots:
       - react-native
       - scheduler
 
-  '@udecode/plate-core@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-core@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
       '@udecode/slate': 21.4.1(slate-history@0.93.0(slate@0.94.1))(slate@0.94.1)
       '@udecode/slate-react': 21.4.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       '@udecode/utils': 19.7.1
       '@udecode/zustood': 1.1.3(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(zustand@3.7.2(react@17.0.2))
       clsx: 1.2.1
-      jotai: 1.13.1(@babel/core@7.26.9)(@babel/template@7.26.9)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react@17.0.2)
+      jotai: 1.13.1(@babel/core@7.26.9)(@babel/template@7.26.9)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react@17.0.2)
       lodash: 4.17.21
-      nanoid: 3.3.8
+      nanoid: 3.3.10
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       react-hotkeys-hook: 4.6.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
@@ -11034,11 +11042,11 @@ snapshots:
       '@udecode/utils': 31.0.0
       clsx: 1.2.1
       is-hotkey: 0.2.0
-      jotai: 2.12.0(@types/react@19.0.10)(react@17.0.2)
-      jotai-optics: 0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1)
-      jotai-x: 1.2.4(@types/react@19.0.10)(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(react@17.0.2)
+      jotai: 2.12.2(@types/react@19.0.10)(react@17.0.2)
+      jotai-optics: 0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1)
+      jotai-x: 1.2.4(@types/react@19.0.10)(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(react@17.0.2)
       lodash: 4.17.21
-      nanoid: 3.3.8
+      nanoid: 3.3.10
       optics-ts: 2.4.1
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
@@ -11068,11 +11076,11 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-emoji@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-emoji@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
       '@emoji-mart/data': 1.1.2
-      '@udecode/plate-combobox': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-combobox': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11095,9 +11103,9 @@ snapshots:
       - react-native
       - scheduler
 
-  '@udecode/plate-find-replace@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-find-replace@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11129,11 +11137,11 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-floating@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-floating@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
       '@floating-ui/react': 0.22.3(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@radix-ui/react-dropdown-menu': 2.1.6(@types/react@19.0.10)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11168,9 +11176,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-font@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-font@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11203,9 +11211,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-heading@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-heading@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11237,48 +11245,48 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-headless@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-headless@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-alignment': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-autoformat': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-basic-elements': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-basic-marks': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-block-quote': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-break': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-button': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-code-block': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-combobox': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-comments': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-emoji': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-find-replace': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-floating': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-font': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-heading': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-highlight': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-horizontal-rule': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-indent': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-indent-list': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-kbd': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-line-height': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-link': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-list': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-media': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-mention': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-node-id': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-normalizers': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-paragraph': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-reset-node': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-select': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-serializer-csv': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-serializer-docx': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-serializer-html': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-serializer-md': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-suggestion': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-tabbable': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-table': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-trailing-block': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/resizable': 20.5.3(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-alignment': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-autoformat': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-basic-elements': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-basic-marks': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-block-quote': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-break': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-button': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-code-block': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-combobox': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-comments': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-emoji': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-find-replace': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-floating': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-font': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-heading': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-highlight': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-horizontal-rule': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-indent': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-indent-list': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-kbd': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-line-height': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-link': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-list': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-media': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-mention': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-node-id': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-normalizers': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-paragraph': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-reset-node': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-select': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-serializer-csv': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-serializer-docx': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-serializer-html': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-serializer-md': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-suggestion': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-tabbable': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-table': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-trailing-block': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/resizable': 20.5.3(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11303,9 +11311,9 @@ snapshots:
       - scheduler
       - supports-color
 
-  '@udecode/plate-highlight@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-highlight@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11337,9 +11345,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-horizontal-rule@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-horizontal-rule@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11371,11 +11379,11 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-indent-list@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-indent-list@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-indent': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-list': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-indent': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-list': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11410,9 +11418,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-indent@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-indent@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11444,9 +11452,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-kbd@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-kbd@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11478,9 +11486,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-line-height@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-line-height@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11512,11 +11520,11 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-link@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-link@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-button': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-normalizers': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-button': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-normalizers': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11550,10 +11558,10 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-list@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-list@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-reset-node': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-reset-node': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11587,10 +11595,10 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-media@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-media@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/resizable': 20.5.3(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/resizable': 20.5.3(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       js-video-url-parser: 0.5.1
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
@@ -11637,10 +11645,10 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-mention@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-mention@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-combobox': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-combobox': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11674,9 +11682,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-node-id@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-node-id@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11709,9 +11717,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-normalizers@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-normalizers@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11744,9 +11752,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-paragraph@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-paragraph@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11778,9 +11786,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-reset-node@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-reset-node@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11822,9 +11830,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-select@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-select@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11856,10 +11864,10 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-serializer-csv@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-serializer-csv@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-table': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-table': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       papaparse: 5.5.2
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
@@ -11895,15 +11903,15 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-serializer-docx@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-serializer-docx@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-heading': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-indent': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-indent-list': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-media': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-paragraph': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-table': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-heading': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-indent': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-indent-list': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-media': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-paragraph': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-table': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -11944,9 +11952,9 @@ snapshots:
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
       validator: 13.12.0
 
-  '@udecode/plate-serializer-html@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-serializer-html@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       html-entities: 2.5.2
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
@@ -11981,15 +11989,15 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-serializer-md@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-serializer-md@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-block-quote': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-code-block': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-heading': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-link': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-list': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/plate-paragraph': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-block-quote': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-code-block': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-heading': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-link': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-list': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-paragraph': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       remark-parse: 9.0.0
@@ -12040,9 +12048,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-suggestion@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-suggestion@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -12076,9 +12084,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-tabbable@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-tabbable@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -12112,10 +12120,10 @@ snapshots:
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
       tabbable: 6.2.0
 
-  '@udecode/plate-table@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-table@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
-      '@udecode/resizable': 20.5.3(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/resizable': 20.5.3(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -12176,9 +12184,9 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-trailing-block@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-trailing-block@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -12210,10 +12218,10 @@ snapshots:
       slate-hyperscript: 0.100.0(slate@0.103.0)
       slate-react: 0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0)
 
-  '@udecode/plate-utils@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/plate-utils@21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
       '@radix-ui/react-slot': 1.1.2(@types/react@19.0.10)(react@17.0.2)
-      '@udecode/plate-core': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-core': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       '@udecode/slate': 21.4.1(slate-history@0.93.0(slate@0.94.1))(slate@0.94.1)
       '@udecode/slate-react': 21.4.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       '@udecode/slate-utils': 21.4.1(slate-history@0.93.0(slate@0.94.1))(slate@0.94.1)
@@ -12326,9 +12334,9 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@udecode/resizable@20.5.3(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
+  '@udecode/resizable@20.5.3(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)':
     dependencies:
-      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-common': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       slate: 0.94.1
@@ -12802,7 +12810,7 @@ snapshots:
 
   base64-js@1.5.1: {}
 
-  better-sqlite3@11.8.1:
+  better-sqlite3@11.9.0:
     dependencies:
       bindings: 1.5.0
       prebuild-install: 7.1.3
@@ -13102,14 +13110,14 @@ snapshots:
 
   clsx@2.1.1: {}
 
-  cmdk@1.0.4(@types/react@19.0.10)(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
+  cmdk@1.1.1(@types/react@19.0.10)(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
     dependencies:
+      '@radix-ui/react-compose-refs': 1.1.1(@types/react@19.0.10)(react@17.0.2)
       '@radix-ui/react-dialog': 1.1.6(@types/react@19.0.10)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@radix-ui/react-id': 1.1.0(@types/react@19.0.10)(react@17.0.2)
       '@radix-ui/react-primitive': 2.0.2(@types/react@19.0.10)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
-      use-sync-external-store: 1.4.0(react@17.0.2)
     transitivePeerDependencies:
       - '@types/react'
       - '@types/react-dom'
@@ -13426,7 +13434,7 @@ snapshots:
 
   date-fns@2.30.0:
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
 
   date-format@4.0.14: {}
 
@@ -13444,7 +13452,7 @@ snapshots:
 
   decamelize@1.2.0: {}
 
-  decode-named-character-reference@1.0.2:
+  decode-named-character-reference@1.1.0:
     dependencies:
       character-entities: 2.0.2
 
@@ -13529,7 +13537,7 @@ snapshots:
 
   downshift@6.1.12(react@17.0.2):
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
       compute-scroll-into-view: 1.0.20
       prop-types: 15.8.1
       react: 17.0.2
@@ -14057,15 +14065,15 @@ snapshots:
 
   final-form@4.20.10:
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
 
   final-form@4.20.4:
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
 
   final-form@4.20.7:
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
 
   finalhandler@1.2.0:
     dependencies:
@@ -14494,7 +14502,7 @@ snapshots:
 
   history@5.3.0:
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
 
   hoist-non-react-statics@3.3.2:
     dependencies:
@@ -14845,27 +14853,27 @@ snapshots:
 
   jiti@1.21.7: {}
 
-  jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1):
+  jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1):
     dependencies:
-      jotai: 2.12.0(@types/react@19.0.10)(react@17.0.2)
+      jotai: 2.12.2(@types/react@19.0.10)(react@17.0.2)
       optics-ts: 2.4.1
 
-  jotai-x@1.2.4(@types/react@19.0.10)(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(react@17.0.2):
+  jotai-x@1.2.4(@types/react@19.0.10)(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(react@17.0.2):
     dependencies:
-      jotai: 2.12.0(@types/react@19.0.10)(react@17.0.2)
+      jotai: 2.12.2(@types/react@19.0.10)(react@17.0.2)
     optionalDependencies:
       '@types/react': 19.0.10
       react: 17.0.2
 
-  jotai@1.13.1(@babel/core@7.26.9)(@babel/template@7.26.9)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react@17.0.2):
+  jotai@1.13.1(@babel/core@7.26.9)(@babel/template@7.26.9)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react@17.0.2):
     dependencies:
       react: 17.0.2
     optionalDependencies:
       '@babel/core': 7.26.9
       '@babel/template': 7.26.9
-      jotai-optics: 0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1)
+      jotai-optics: 0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1)
 
-  jotai@2.12.0(@types/react@19.0.10)(react@17.0.2):
+  jotai@2.12.2(@types/react@19.0.10)(react@17.0.2):
     optionalDependencies:
       '@types/react': 19.0.10
       react: 17.0.2
@@ -15204,7 +15212,7 @@ snapshots:
     dependencies:
       '@types/mdast': 3.0.15
       '@types/unist': 2.0.11
-      decode-named-character-reference: 1.0.2
+      decode-named-character-reference: 1.1.0
       mdast-util-to-string: 3.2.0
       micromark: 3.2.0
       micromark-util-decode-numeric-character-reference: 1.1.0
@@ -15221,7 +15229,7 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.4
       '@types/unist': 3.0.3
-      decode-named-character-reference: 1.0.2
+      decode-named-character-reference: 1.1.0
       devlop: 1.1.0
       mdast-util-to-string: 4.0.0
       micromark: 4.0.2
@@ -15558,7 +15566,7 @@ snapshots:
 
   micromark-core-commonmark@1.1.0:
     dependencies:
-      decode-named-character-reference: 1.0.2
+      decode-named-character-reference: 1.1.0
       micromark-factory-destination: 1.1.0
       micromark-factory-label: 1.1.0
       micromark-factory-space: 1.0.0
@@ -15577,7 +15585,7 @@ snapshots:
 
   micromark-core-commonmark@2.0.2:
     dependencies:
-      decode-named-character-reference: 1.0.2
+      decode-named-character-reference: 1.1.0
       devlop: 1.1.0
       micromark-factory-destination: 2.0.1
       micromark-factory-label: 2.0.1
@@ -15590,13 +15598,13 @@ snapshots:
       micromark-util-html-tag-name: 2.0.1
       micromark-util-normalize-identifier: 2.0.1
       micromark-util-resolve-all: 2.0.1
-      micromark-util-subtokenize: 2.0.4
+      micromark-util-subtokenize: 2.1.0
       micromark-util-symbol: 2.0.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-core-commonmark@2.0.3:
     dependencies:
-      decode-named-character-reference: 1.0.2
+      decode-named-character-reference: 1.1.0
       devlop: 1.1.0
       micromark-factory-destination: 2.0.1
       micromark-factory-label: 2.0.1
@@ -15625,7 +15633,7 @@ snapshots:
       micromark-util-character: 2.1.1
       micromark-util-sanitize-uri: 2.0.1
       micromark-util-symbol: 2.0.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-extension-gfm-footnote@1.1.2:
     dependencies:
@@ -15647,7 +15655,7 @@ snapshots:
       micromark-util-normalize-identifier: 2.0.1
       micromark-util-sanitize-uri: 2.0.1
       micromark-util-symbol: 2.0.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-extension-gfm-strikethrough@1.0.7:
     dependencies:
@@ -15665,7 +15673,7 @@ snapshots:
       micromark-util-classify-character: 2.0.1
       micromark-util-resolve-all: 2.0.1
       micromark-util-symbol: 2.0.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-extension-gfm-table@1.0.7:
     dependencies:
@@ -15681,7 +15689,7 @@ snapshots:
       micromark-factory-space: 2.0.1
       micromark-util-character: 2.1.1
       micromark-util-symbol: 2.0.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-extension-gfm-tagfilter@1.0.2:
     dependencies:
@@ -15689,7 +15697,7 @@ snapshots:
 
   micromark-extension-gfm-tagfilter@2.0.0:
     dependencies:
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-extension-gfm-task-list-item@1.0.5:
     dependencies:
@@ -15705,7 +15713,7 @@ snapshots:
       micromark-factory-space: 2.0.1
       micromark-util-character: 2.1.1
       micromark-util-symbol: 2.0.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-extension-gfm@1.0.0:
     dependencies:
@@ -15737,7 +15745,7 @@ snapshots:
       micromark-extension-gfm-tagfilter: 2.0.0
       micromark-extension-gfm-task-list-item: 2.1.0
       micromark-util-combine-extensions: 2.0.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-extension-mdx-expression@1.0.8:
     dependencies:
@@ -15812,7 +15820,7 @@ snapshots:
     dependencies:
       '@types/estree': 1.0.6
       devlop: 1.1.0
-      micromark-core-commonmark: 2.0.2
+      micromark-core-commonmark: 2.0.3
       micromark-util-character: 2.1.1
       micromark-util-events-to-acorn: 2.0.2
       micromark-util-symbol: 2.0.1
@@ -15852,7 +15860,7 @@ snapshots:
     dependencies:
       micromark-util-character: 2.1.1
       micromark-util-symbol: 2.0.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-factory-label@1.1.0:
     dependencies:
@@ -15866,7 +15874,7 @@ snapshots:
       devlop: 1.1.0
       micromark-util-character: 2.1.1
       micromark-util-symbol: 2.0.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-factory-mdx-expression@1.0.7:
     dependencies:
@@ -15899,7 +15907,7 @@ snapshots:
   micromark-factory-space@2.0.1:
     dependencies:
       micromark-util-character: 2.1.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-factory-title@1.1.0:
     dependencies:
@@ -15913,7 +15921,7 @@ snapshots:
       micromark-factory-space: 2.0.1
       micromark-util-character: 2.1.1
       micromark-util-symbol: 2.0.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-factory-whitespace@1.0.0:
     dependencies:
@@ -15927,7 +15935,7 @@ snapshots:
       micromark-factory-space: 2.0.1
       micromark-util-character: 2.1.1
       micromark-util-symbol: 2.0.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-util-character@1.1.0:
     dependencies:
@@ -15967,7 +15975,7 @@ snapshots:
   micromark-util-combine-extensions@2.0.1:
     dependencies:
       micromark-util-chunked: 2.0.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-util-decode-numeric-character-reference@1.1.0:
     dependencies:
@@ -15979,14 +15987,14 @@ snapshots:
 
   micromark-util-decode-string@1.1.0:
     dependencies:
-      decode-named-character-reference: 1.0.2
+      decode-named-character-reference: 1.1.0
       micromark-util-character: 1.1.0
       micromark-util-decode-numeric-character-reference: 1.1.0
       micromark-util-symbol: 1.0.1
 
   micromark-util-decode-string@2.0.1:
     dependencies:
-      decode-named-character-reference: 1.0.2
+      decode-named-character-reference: 1.1.0
       micromark-util-character: 2.1.1
       micromark-util-decode-numeric-character-reference: 2.0.2
       micromark-util-symbol: 2.0.1
@@ -16035,7 +16043,7 @@ snapshots:
 
   micromark-util-resolve-all@2.0.1:
     dependencies:
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-util-sanitize-uri@1.2.0:
     dependencies:
@@ -16056,13 +16064,6 @@ snapshots:
       micromark-util-types: 1.0.2
       uvu: 0.5.6
 
-  micromark-util-subtokenize@2.0.4:
-    dependencies:
-      devlop: 1.1.0
-      micromark-util-chunked: 2.0.1
-      micromark-util-symbol: 2.0.1
-      micromark-util-types: 2.0.1
-
   micromark-util-subtokenize@2.1.0:
     dependencies:
       devlop: 1.1.0
@@ -16075,8 +16076,6 @@ snapshots:
   micromark-util-symbol@2.0.1: {}
 
   micromark-util-types@1.0.2: {}
-
-  micromark-util-types@2.0.1: {}
 
   micromark-util-types@2.0.2: {}
 
@@ -16091,7 +16090,7 @@ snapshots:
     dependencies:
       '@types/debug': 4.1.12
       debug: 4.4.0
-      decode-named-character-reference: 1.0.2
+      decode-named-character-reference: 1.1.0
       micromark-core-commonmark: 1.1.0
       micromark-factory-space: 1.0.0
       micromark-util-character: 1.1.0
@@ -16113,7 +16112,7 @@ snapshots:
     dependencies:
       '@types/debug': 4.1.12
       debug: 4.4.0
-      decode-named-character-reference: 1.0.2
+      decode-named-character-reference: 1.1.0
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.3
       micromark-factory-space: 2.0.1
@@ -16238,6 +16237,8 @@ snapshots:
       stylis: 4.3.6
 
   nanoclone@0.2.1: {}
+
+  nanoid@3.3.10: {}
 
   nanoid@3.3.6: {}
 
@@ -16476,7 +16477,7 @@ snapshots:
       character-entities: 2.0.2
       character-entities-legacy: 3.0.0
       character-reference-invalid: 2.0.1
-      decode-named-character-reference: 1.0.2
+      decode-named-character-reference: 1.1.0
       is-alphanumerical: 2.0.1
       is-decimal: 2.0.1
       is-hexadecimal: 2.0.1
@@ -16486,7 +16487,7 @@ snapshots:
       '@types/unist': 2.0.11
       character-entities-legacy: 3.0.0
       character-reference-invalid: 2.0.1
-      decode-named-character-reference: 1.0.2
+      decode-named-character-reference: 1.1.0
       is-alphanumerical: 2.0.1
       is-decimal: 2.0.1
       is-hexadecimal: 2.0.1
@@ -16796,7 +16797,7 @@ snapshots:
 
   react-beautiful-dnd@13.1.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
       css-box-model: 1.2.1
       memoize-one: 5.2.1
       raf-schd: 4.0.3
@@ -16851,13 +16852,13 @@ snapshots:
 
   react-final-form@6.5.9(final-form@4.20.10)(react@17.0.2):
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
       final-form: 4.20.10
       react: 17.0.2
 
   react-final-form@6.5.9(final-form@4.20.4)(react@17.0.2):
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
       final-form: 4.20.4
       react: 17.0.2
 
@@ -16870,7 +16871,7 @@ snapshots:
     dependencies:
       react: 17.0.2
 
-  react-icons@5.4.0(react@17.0.2):
+  react-icons@5.5.0(react@17.0.2):
     dependencies:
       react: 17.0.2
 
@@ -16885,7 +16886,7 @@ snapshots:
 
   react-redux@7.2.9(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
       '@types/react-redux': 7.1.34
       hoist-non-react-statics: 3.3.2
       loose-envify: 1.4.0
@@ -16938,7 +16939,7 @@ snapshots:
 
   react-textarea-autosize@8.5.2(@types/react@19.0.10)(react@17.0.2):
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
       react: 17.0.2
       use-composed-ref: 1.3.0(react@17.0.2)
       use-latest: 1.2.1(@types/react@19.0.10)(react@17.0.2)
@@ -17062,7 +17063,7 @@ snapshots:
 
   redux@4.2.1:
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
 
   reflect.getprototypeof@1.0.4:
     dependencies:
@@ -17129,7 +17130,7 @@ snapshots:
 
   relay-runtime@12.0.0(encoding@0.1.13):
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
       fbjs: 3.0.5(encoding@0.1.13)
       invariant: 2.2.4
     transitivePeerDependencies:
@@ -17375,7 +17376,7 @@ snapshots:
 
   rtl-css-js@1.16.1:
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
 
   run-parallel-limit@1.1.0:
     dependencies:
@@ -17636,7 +17637,7 @@ snapshots:
     dependencies:
       '@juggle/resize-observer': 3.4.0
       '@types/is-hotkey': 0.1.10
-      '@types/lodash': 4.17.15
+      '@types/lodash': 4.17.16
       direction: 1.0.4
       is-hotkey: 0.2.0
       is-plain-object: 5.0.0
@@ -17651,7 +17652,7 @@ snapshots:
     dependencies:
       '@juggle/resize-observer': 3.4.0
       '@types/is-hotkey': 0.1.10
-      '@types/lodash': 4.17.15
+      '@types/lodash': 4.17.16
       direction: 1.0.4
       is-hotkey: 0.1.8
       is-plain-object: 5.0.0
@@ -17718,7 +17719,7 @@ snapshots:
   sqlite-level@1.2.1(sucrase@3.35.0):
     dependencies:
       abstract-level: 1.0.4
-      better-sqlite3: 11.8.1
+      better-sqlite3: 11.9.0
       module-error: 1.0.2
       sucrase: 3.35.0
 
@@ -17954,7 +17955,7 @@ snapshots:
 
   throttle-debounce@3.0.1: {}
 
-  tinacms@1.5.22(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
+  tinacms@1.5.22(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
     dependencies:
       '@floating-ui/dom': 1.6.13
       '@floating-ui/react-dom': 2.1.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
@@ -17972,7 +17973,7 @@ snapshots:
       '@tinacms/schema-tools': 1.4.13(react@17.0.2)(yup@0.32.11)
       '@tinacms/search': 1.0.12(encoding@0.1.13)(react@17.0.2)(yup@0.32.11)
       '@tinacms/sharedctx': 1.0.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@udecode/plate-headless': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.0(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
+      '@udecode/plate-headless': 21.5.0(@babel/core@7.26.9)(@babel/template@7.26.9)(@types/react@19.0.10)(jotai-optics@0.3.2(jotai@2.12.2(@types/react@19.0.10)(react@17.0.2))(optics-ts@2.4.1))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.93.0(slate@0.94.1))(slate-hyperscript@0.77.0(slate@0.94.1))(slate-react@0.97.2(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.94.1))(slate@0.94.1)
       atob: 2.1.2
       color-string: 1.9.1
       crypto-js: 4.2.0
@@ -18028,7 +18029,7 @@ snapshots:
       - react-native
       - supports-color
 
-  tinacms@2.6.4(@types/react@19.0.10)(abstract-level@1.0.3)(immer@10.1.1)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(sucrase@3.35.0)(typescript@5.8.2):
+  tinacms@2.7.2(@types/react@19.0.10)(abstract-level@1.0.3)(immer@10.1.1)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(sucrase@3.35.0)(typescript@5.8.2):
     dependencies:
       '@ariakit/react': 0.4.15(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@floating-ui/dom': 1.6.13
@@ -18046,9 +18047,9 @@ snapshots:
       '@radix-ui/react-toolbar': 1.1.2(@types/react@19.0.10)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@radix-ui/react-tooltip': 1.1.8(@types/react@19.0.10)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@react-hook/window-size': 3.1.1(react@17.0.2)
-      '@tinacms/mdx': 1.5.4(react@17.0.2)(typescript@5.8.2)(yup@1.6.1)
-      '@tinacms/schema-tools': 1.7.0(react@17.0.2)(yup@1.6.1)
-      '@tinacms/search': 1.0.39(abstract-level@1.0.3)(react@17.0.2)(sucrase@3.35.0)(typescript@5.8.2)(yup@1.6.1)
+      '@tinacms/mdx': 1.6.1(react@17.0.2)(typescript@5.8.2)(yup@1.6.1)
+      '@tinacms/schema-tools': 1.7.2(react@17.0.2)(yup@1.6.1)
+      '@tinacms/search': 1.0.41(abstract-level@1.0.3)(react@17.0.2)(sucrase@3.35.0)(typescript@5.8.2)(yup@1.6.1)
       '@udecode/cn': 33.0.0(@types/react@19.0.10)(class-variance-authority@0.7.1)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(tailwind-merge@2.6.0)
       '@udecode/plate': 36.5.9(@types/react@19.0.10)(immer@10.1.1)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.100.0(slate@0.103.0))(slate-hyperscript@0.100.0(slate@0.103.0))(slate-react@0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0))(slate@0.103.0)
       '@udecode/plate-autoformat': 36.5.6(@udecode/plate-common@36.5.9(@types/react@19.0.10)(immer@10.1.1)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(scheduler@0.19.0)(slate-history@0.100.0(slate@0.103.0))(slate-hyperscript@0.100.0(slate@0.103.0))(slate-react@0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0))(slate@0.103.0))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate-history@0.100.0(slate@0.103.0))(slate-hyperscript@0.100.0(slate@0.103.0))(slate-react@0.107.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(slate@0.103.0))(slate@0.103.0)
@@ -18068,7 +18069,7 @@ snapshots:
       async-lock: 1.4.1
       class-variance-authority: 0.7.1
       clsx: 2.1.1
-      cmdk: 1.0.4(@types/react@19.0.10)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      cmdk: 1.1.1(@types/react@19.0.10)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       color-string: 1.9.1
       crypto-js: 4.2.0
       date-fns: 2.30.0
@@ -18093,7 +18094,7 @@ snapshots:
       react-dom: 17.0.2(react@17.0.2)
       react-dropzone: 14.2.3(react@17.0.2)
       react-final-form: 6.5.9(final-form@4.20.10)(react@17.0.2)
-      react-icons: 5.4.0(react@17.0.2)
+      react-icons: 5.5.0(react@17.0.2)
       react-router-dom: 6.3.0(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       react-use: 17.6.0(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       slate: 0.103.0
